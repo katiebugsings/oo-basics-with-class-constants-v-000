@@ -10,7 +10,7 @@ class Shoe
 
     # if the brand is in the array of BRANDS
       # dont add it
-    if brands.include?(brand)
+    if BRANDS.include?(brand)
       BRANDS << brand # add the brand to BRANDS
     end
   end
